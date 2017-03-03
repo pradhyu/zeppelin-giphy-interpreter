@@ -37,7 +37,7 @@ public class GiphyInterpreter extends Interpreter {
 
     @Override
     public FormType getFormType() {
-        return null;
+        return FormType.SIMPLE;
     }
 
     @Override
