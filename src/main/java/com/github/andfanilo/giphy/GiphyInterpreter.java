@@ -27,7 +27,11 @@ public class GiphyInterpreter extends Interpreter {
 
     @Override
     public InterpreterResult interpret(String s, InterpreterContext interpreterContext) {
-        return new InterpreterResult(Code.SUCCESS, InterpreterResult.Type.TEXT, s);
+        return new InterpreterResult(
+                Code.SUCCESS,
+                InterpreterResult.Type.HTML,
+                "<iframe src=\"//giphy.com/embed/xUA7b1XtsUC0P6aMY8\" width=\"480\" height=\"270\" frameBorder=\"0\" class=\"giphy-embed\" allowFullScreen></iframe>"
+        );
     }
 
     @Override
