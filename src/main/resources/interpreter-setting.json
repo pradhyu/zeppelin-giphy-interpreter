@@ -1,0 +1,12 @@
+[
+  {
+    "group": "giphy",
+    "name": "giphy",
+    "className": "com.github.andfanilo.giphy.GiphyInterpreter",
+    "properties": {
+    },
+    "editor": {
+      "editOnDblClick": false
+    }
+  }
+]
